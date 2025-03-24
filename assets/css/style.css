@@ -22,7 +22,16 @@ body {
 
 h1, h2, h3 , a {
     font-family: "MedievalSharp Regular";
-    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+h1, h2 {
+    color: #f9cfa4;
+    font-size: 3rem;
+}
+
+h3 {
+    color: white;
 }
 
 ul {
@@ -35,14 +44,13 @@ a {
 }
 
 .cta {
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .cta-primary {
     color: black;
     background-color: #f9cfa4;
     border-radius: 0.5rem;
-    font-size: inherit;
 }
 
 .cta-secondary {
@@ -50,6 +58,7 @@ a {
     backdrop-filter: blur(20px);
     border: 1px solid #f9cfa4;
     border-radius: 0.5rem;
+    font-size: 2.5rem;
 }
 
 .container {
@@ -128,21 +137,23 @@ a {
 
 .awards {
     margin-top: 4rem;
-    width: 65%;
+    padding: 2rem;
+    width: 70%;
     display: flex;
+    align-items: center;
     border: 1px solid #f9cfa4;
     border-radius: 0.5rem;
     margin-bottom: 25vh;
     background-image: url(../img/awards-bg.png);
-}
-
-.award-bg-img {
-    width: 100%;
-    object-fit: cover;
+    background-size: cover;
 }
 
 .award {
-    width: 20%;
+    width: 30%;
+}
+
+.award h2, h3 {
+    margin: 0;
 }
 
 .award-logo {
