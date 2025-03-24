@@ -17,6 +17,7 @@
 body {
     margin: 0;
     font-family: "Gothic-A1 Regular";
+    background-image: url(../img/smoke-bg.jpg);
 }
 
 h1, h2, h3 , a {
@@ -64,11 +65,15 @@ a {
 }
 
 .navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     background-image: url(../img/cloud-header.png);
-    height: 60vh;
+    background-size: contain;
 }
 
 .logo-container {
@@ -93,13 +98,18 @@ a {
     color: #f9cfa4;
 }
 
-.video-hero {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+.container-hero {
     width: 100%;
-    height: 100vh;
+}
+
+.hero {
+    position: relative;
+    z-index: -1;
+}
+
+.video-hero {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -107,10 +117,36 @@ a {
     position: absolute;
     left: 50%;
     bottom: 10%;
+    z-index: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #f9cfa4;
     text-transform: uppercase;
     transform: translate(-50%);
+}
+
+.awards {
+    margin-top: 4rem;
+    width: 65%;
+    display: flex;
+    border: 1px solid #f9cfa4;
+    border-radius: 0.5rem;
+    margin-bottom: 25vh;
+    background-image: url(../img/awards-bg.png);
+}
+
+.award-bg-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.award {
+    width: 20%;
+}
+
+.award-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
