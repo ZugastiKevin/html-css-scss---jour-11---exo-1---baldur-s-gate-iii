@@ -42,6 +42,13 @@ a {
     border-radius: 0.5rem;
 }
 
+.cta-secondary {
+    color: white;
+    backdrop-filter: blur(20px);
+    border: 1px solid #f9cfa4;
+    border-radius: 0.5rem;
+}
+
 .container {
     width: 100%;
     max-width: 1550px;
@@ -51,7 +58,6 @@ a {
 
 .container-navbar {
     width: 100%;
-    max-width: 1550px;
     margin: 0;
 }
 
@@ -81,4 +87,27 @@ a {
 .nav-list {
     font-family: "MedievalSharp Regular";
     color: #f9cfa4;
+}
+
+.video-hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f9cfa4;
+    text-transform: uppercase;
+    transform: translate(-50%);
+    font-size: 1.5rem;
 }
