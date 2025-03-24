@@ -223,7 +223,7 @@ a {
     margin-bottom: 1rem;
 }
 
-.courgette {
+.container-line {
     position: relative;
 }
 
@@ -242,11 +242,22 @@ a {
     left: 50%;
     bottom: 10%;
     display: block;
-    width: 10vh;
+    width: 13rem;
     border-bottom: 1px solid #f9cfa4;
     transform: translate(-50%, -50%);
 }
 
-.race-result p::after {
+.race-result p {
+    margin-bottom: 4rem;
+}
 
+.race-result p::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #f9cfa4;
+    transform: translate(-50%, -50%);
 }
