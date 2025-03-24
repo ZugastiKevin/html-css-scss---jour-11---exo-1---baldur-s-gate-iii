@@ -1,9 +1,45 @@
+@font-face {
+    font-family: "Gothic-A1 Regular";
+    src: url(../fonts/Gothic_A1/GothicA1-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "MedievalSharp Regular";
+    src: url(../fonts/MedievalSharp/MedievalSharp-Regular.ttf);
+    font-weight: 400;
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
+    font-family: "Gothic-A1 Regular";
+}
+
+h1, h2, h3 , a {
+    font-family: "MedievalSharp Regular";
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cta {
+    padding: 1rem 1.5rem;
+}
+
+.cta-primary {
+    color: black;
+    background-color: #f9cfa4;
+    border-radius: 0.5rem;
 }
 
 .container {
@@ -11,4 +47,38 @@ body {
     max-width: 1550px;
     margin: 0 auto;
     padding: 0.9rem 4rem;
+}
+
+.container-navbar {
+    width: 100%;
+    max-width: 1550px;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-container {
+    width: 15%;
+}
+
+.logo-bg3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav-lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-list {
+    font-family: "MedievalSharp Regular";
+    color: #f9cfa4;
 }
