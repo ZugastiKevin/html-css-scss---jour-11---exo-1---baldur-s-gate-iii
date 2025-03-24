@@ -21,6 +21,7 @@ body {
 
 h1, h2, h3 , a {
     font-family: "MedievalSharp Regular";
+    font-size: 1.5rem;
 }
 
 ul {
@@ -33,13 +34,14 @@ a {
 }
 
 .cta {
-    padding: 1rem 1.5rem;
+    padding: 1rem;
 }
 
 .cta-primary {
     color: black;
     background-color: #f9cfa4;
     border-radius: 0.5rem;
+    font-size: inherit;
 }
 
 .cta-secondary {
@@ -64,7 +66,9 @@ a {
 .navbar {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
+    background-image: url(../img/cloud-header.png);
+    height: 60vh;
 }
 
 .logo-container {
@@ -109,5 +113,4 @@ a {
     color: #f9cfa4;
     text-transform: uppercase;
     transform: translate(-50%);
-    font-size: 1.5rem;
 }
