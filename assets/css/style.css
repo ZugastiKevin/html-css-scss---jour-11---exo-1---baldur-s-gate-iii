@@ -160,3 +160,93 @@ a {
     height: 100%;
     object-fit: cover;
 }
+
+.races {
+    width: 90%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.races-contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.race-content {
+    border: 1px solid #f9cfa4;
+    border-radius: 0.5rem;
+}
+
+.race-previews {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem 2rem;
+    font-family: "MedievalSharp Regular";
+    background-image: url(../img/races-bg.jpg);
+}
+
+.race-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    color: white;
+}
+
+.container-heads {
+    width: 55%;
+    margin-bottom: 1rem;
+}
+
+.heads {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.race-result {
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 2rem;
+    color: #f9cfa4;
+}
+
+.container-head {
+    width: 15%;
+    margin-bottom: 1rem;
+}
+
+.courgette {
+    position: relative;
+}
+
+.race-result h2::before {
+    position: absolute;
+    left: -98%;
+    bottom: 28.5%;
+    content: url(../svg/decoration-line--before.svg);
+    width: 10%;
+    height: 10%;
+}
+
+.race-result h2::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    display: block;
+    width: 10vh;
+    border-bottom: 1px solid #f9cfa4;
+    transform: translate(-50%, -50%);
+}
+
+.race-result p::after {
+
+}
