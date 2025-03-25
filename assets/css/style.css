@@ -83,6 +83,12 @@ a {
     font-size: 1.5rem;
 }
 
+.cta-six {
+    padding: 0;
+    color: #be9978;
+    text-transform: none;
+}
+
 .container {
     width: 100%;
     max-width: 1550px;
@@ -473,4 +479,52 @@ a {
 .downloads-content a {
     margin-left: 4rem;
     margin-bottom: 3rem;
+}
+
+.footer {
+    width: 90%;
+    margin-top: 4rem;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #be9978;
+    border-bottom: 1px solid #be9978;
+}
+
+.footer-content {
+    width: 28%;
+}
+
+.footer-content-lists {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content-list {
+    margin-top: 1.5rem;
+}
+
+.footer-content-list h2 {
+    font-size: 1.5rem;
+}
+
+.footer-content-list li {
+    margin-bottom: 0.5rem;
+}
+
+.privacy {
+    padding-left: 0;
+    margin-bottom: 4rem;
+}
+
+.privacy ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.privacy a {
+    color: white;
+    text-transform: none;
+    font-family:  "Gothic-A1 Regular";
 }
