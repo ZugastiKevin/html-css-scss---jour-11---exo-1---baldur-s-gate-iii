@@ -18,6 +18,7 @@ body {
     margin: 0;
     font-family: "Gothic-A1 Regular";
     background-image: url(../img/smoke-bg.jpg);
+    color: white;
 }
 
 h1, h2, h3 , a {
@@ -274,11 +275,12 @@ a {
 }
 
 .buy {
+    margin-top: 3rem;
     display: flex;
     justify-content: center;
     background-image: url(../img/buy-now-background.jpg);
     background-size: cover;
-    height: 46vh;
+    background-position: center;
 }
 
 .buy-img-container {
@@ -299,6 +301,15 @@ a {
 }
 
 .buy-content h2 {
+    margin-top: 0;
+}
+
+.buy-content p:first-of-type {
+    margin-top: 2.49rem;
+}
+
+.buy-content p {
+    max-width: 80%;
     margin-top: 0;
 }
 
