@@ -57,7 +57,7 @@ a {
 .cta-secondary {
     color: white;
     backdrop-filter: blur(20px);
-    border: 1px solid #f9cfa4;
+    border: 1px solid #be9978;
     border-radius: 0.5rem;
     font-size: 2.5rem;
 }
@@ -65,8 +65,13 @@ a {
 .cta-third {
     color: white;
     backdrop-filter: blur(20px);
-    border: 1px solid #f9cfa4;
+    border: 1px solid #be9978;
     border-radius: 0.5rem;
+}
+
+.cta-four {
+    padding: 0;
+    color: #be9978;
 }
 
 .container {
@@ -149,7 +154,7 @@ a {
     width: 70%;
     display: flex;
     align-items: center;
-    border: 1px solid #f9cfa4;
+    border: 1px solid #be9978;
     border-radius: 0.5rem;
     background-image: url(../img/awards-bg.png);
     background-size: cover;
@@ -182,7 +187,7 @@ a {
 }
 
 .race-content {
-    border: 1px solid #f9cfa4;
+    border: 1px solid #be9978;
     border-radius: 0.5rem;
 }
 
@@ -195,6 +200,7 @@ a {
     padding: 3rem 2rem;
     font-family: "MedievalSharp Regular";
     background-image: url(../img/races-bg.jpg);
+    background-size: cover;
 }
 
 .race-preview {
@@ -223,7 +229,7 @@ a {
     align-items: center;
     text-align: center;
     padding: 1rem 2rem;
-    color: #f9cfa4;
+    color: #be9978;
 }
 
 .container-head {
@@ -251,8 +257,12 @@ a {
     bottom: 10%;
     display: block;
     width: 13rem;
-    border-bottom: 1px solid #f9cfa4;
+    border-bottom: 1px solid #be9978;
     transform: translate(-50%, -50%);
+}
+
+.race-result h2 {
+    color: #be9978;
 }
 
 .race-result p {
@@ -266,7 +276,7 @@ a {
     bottom: 0%;
     display: block;
     width: 100%;
-    border-bottom: 1px solid #f9cfa4;
+    border-bottom: 1px solid #be9978;
     transform: translate(-50%, -50%);
 }
 
@@ -301,6 +311,7 @@ a {
 }
 
 .buy-content h2 {
+    color: #be9978;
     margin-top: 0;
 }
 
@@ -317,4 +328,62 @@ a {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+}
+
+.update {
+    width: 90%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.update h2 {
+    font-size: 2.4rem;
+}
+
+.update-contents {
+    display: flex;
+    justify-content: space-between;
+}
+.update-content {
+    width: 30%;
+    outline: 1px solid #be9978;
+    border-radius: 0.5rem;
+}
+
+.update-2 {
+    background-image: url(../img/news-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.update-1 {
+    background-image: url(../img/news-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ps5 {
+    background-image: url(../img/news-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    height: 100%;
+    padding: 2rem;
+    border-image: fill 1 linear-gradient(hsla(0 0% 0% /0.6));
+    transition: all 0.2s ease-in;
+}
+
+.overlay:hover {
+    border-image: none;
+}
+
+.update-content h2 {
+    font-size: 1.7rem;
+}
+
+.update-content p {
+    max-width: 85%;
 }
