@@ -360,16 +360,11 @@ a {
     display: flex;
     justify-content: space-between;
 }
-.update-content {
+.card-update {
     position: relative;
     width: 30%;
     outline: 1px solid #be9978;
     border-radius: 0.5rem;
-    transition: all 0.2s ease-in;
-}
-
-.update-content:hover {
-    background-color: none;
 }
 
 .update-2 {
@@ -395,17 +390,22 @@ a {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in;
 }
 
 .overlay:hover {
     background-color: none;
 }
 
-.update-content h2 {
+.card-body {
+    z-index: 1;
+}
+
+.card-body h2 {
     font-size: 1.7rem;
 }
 
-.update-content p {
+.card-bodyt p {
     max-width: 85%;
 }
 
